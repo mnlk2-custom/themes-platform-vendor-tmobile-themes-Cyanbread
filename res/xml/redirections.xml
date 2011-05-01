@@ -19,6 +19,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:pluto="http://www.w3.org/2001/pluto.html">
 
+    <package-redirections android:name="frameworks-res"
+        android:minSdkVersion="7"
+        android:resource="@xml/android" />
+
     <package-redirections android:name="android"
         android:minSdkVersion="7"
         android:resource="@xml/android" />

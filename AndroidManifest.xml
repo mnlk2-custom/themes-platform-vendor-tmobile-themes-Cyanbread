@@ -40,8 +40,7 @@
 
         <!-- Currently this is not being read, but instead the redirections are
              inferred from the convention res/xml/<package_name>.xml. -->
-        <meta-data android:name="com.tmobile.theme.redirections"
-            android:resource="@xml/redirections" />
+        <meta-data android:name="com.tmobile.theme.redirections" android:resource="@xml/redirections"/>
 
     </theme>
 
